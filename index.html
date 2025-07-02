@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mix Churros - A melhor experiência em churros!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Mix Churros</h1>
+            <p>Pequeno no Tamanho gigante no sabor!!</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="produtos">
+            <h2>Monte seu Churros</h2>
+            
+            <div class="opcoes">
+                <div class="tipo-churros">
+                    <h3>Tipo de Churros</h3>
+                    <div class="opcao">
+                        <input type="radio" id="tradicional" name="tipo-churros" value="Tradicional" checked>
+                        <label for="tradicional">Tradicional - R$ 8,00</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="radio" id="espanhol" name="tipo-churros" value="Espanhol">
+                        <label for="espanhol">Espanhol - R$ 10,00</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="radio" id="mini" name="tipo-churros" value="Mini">
+                        <label for="mini">Mini (3 unidades) - R$ 12,00</label>
+                    </div>
+                </div>
+
+                <div class="recheios">
+                    <h3>Recheios Normais (Até 2)</h3>
+                    <div class="opcao">
+                        <input type="checkbox" id="doce-leite" name="recheio" value="Doce de Leite">
+                        <label for="doce-leite">Doce de Leite</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="checkbox" id="chocolate" name="recheio" value="Chocolate">
+                        <label for="chocolate">Chocolate</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="checkbox" id="chocolate-branco" name="recheio" value="Chocolate Branco">
+                        <label for="chocolate-branco">Chocolate Branco</label>
+                    </div>
+
+                    <h3>Recheios Gourmet (+R$ 3,00)</h3>
+                    <div class="opcao">
+                        <input type="checkbox" id="pistache" name="recheio-gourmet" value="Pistache">
+                        <label for="pistache">Pistache</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="checkbox" id="pacoca" name="recheio-gourmet" value="Paçoca">
+                        <label for="pacoca">Paçoca</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="checkbox" id="nutella" name="recheio-gourmet" value="Nutella">
+                        <label for="nutella">Nutella</label>
+                    </div>
+                </div>
+            </div>
+
+            <button id="adicionar-carrinho">Adicionar ao Carrinho</button>
+        </section>
+
+        <section class="carrinho">
+            <h2>Seu Carrinho</h2>
+            <div id="itens-carrinho">
+                <p class="vazio">Seu carrinho está vazio</p>
+            </div>
+            <div class="total">
+                <p>Total: R$ <span id="total-carrinho">0,00</span></p>
+            </div>
+            <button id="finalizar-pedido" onclick="window.location.href='chekout.html'">Finalizar Pedido</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Mix Churros &copy; 2023 - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    
+</body>
+</html>

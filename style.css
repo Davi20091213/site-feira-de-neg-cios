@@ -20,6 +20,60 @@ header {
     text-align: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+/* Estilos existentes do header - substitua ou adicione */
+header {
+    background-color: #ffcf54;
+    color: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.logo-img {
+    height: 80px;
+    width: auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.logo-text h1 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.logo-text p {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .logo-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .logo-img {
+        margin-right: 0;
+        margin-bottom: 10px;
+        height: 70px;
+    }
+    
+    .logo-text h1 {
+        font-size: 1.8rem;
+    }
+}
 
 .logo h1 {
     font-size: 2.5rem;
@@ -198,11 +252,17 @@ footer {
 
 .resumo-pedido li {
     padding: 5px 0;
-    border-bottom: 1px dashed #ddd;
+    border-bottom: 1px dashed #fecf88;
 }
 
 .resumo-pedido .total {
     font-weight: bold;
     margin-top: 10px;
     text-align: right;
+}
+.item-carrinho small {
+    color: #fcc952;
+    font-style: italic;
+    display: block;
+    margin: 3px 0;
 }

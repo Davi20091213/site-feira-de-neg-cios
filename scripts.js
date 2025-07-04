@@ -66,6 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
         atualizarCarrinho(localStorage.setItem('carrinho', JSON.stringify(carrinho)));
         
         
+        
         // Limpar seleções (opcional)
         document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
             checkbox.checked = false;

@@ -93,3 +93,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Inicializa a página
     exibirResumoPedido();
 });
+function enviarParaWhatsApp(dadosCliente) {
+    // ... (código anterior)
+    
+    carrinho.forEach((item, index) => {
+        mensagem += `*Item ${index + 1}:* ${item.tipo}%0A`;
+        mensagem += `- ${item.canela}%0A`;  // Linha da canela
+        
+        // ... (restante do código)
+    });
+    
+    // ... (código posterior)
+}

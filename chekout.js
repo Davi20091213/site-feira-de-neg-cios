@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
         mensagem += `*TOTAL DO PEDIDO: R$ ${total.toFixed(2)}*`;
         
         // Número do WhatsApp - substitua pelo seu número
-        const numeroWhatsApp = '5543996156791'; // (43) 99615-6791 no formato internacional
+        const numeroWhatsApp = '5543996624171'; // (43) 99662-4171 no formato internacional
         
         // Abre o WhatsApp com a mensagem pré-formatada
         window.open(`https://wa.me/${numeroWhatsApp}?text=${mensagem}`, '_blank');

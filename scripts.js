@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     // Adicional para recheios gourmet
-    const adicionalGourmet = 1.00;
+    const adicionalGourmet = 3.00;
 
     // Carrinho de compras
     let carrinho = [];

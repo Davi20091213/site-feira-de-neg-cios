@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         mensagem += `*Telefone:* ${dadosCliente.telefone}%0A`;
         
         if (dadosCliente.observacoes) {
-            mensagem += `*Observações:* ${dadosCliente.observacoes}%0A%0A`;
+            mensagem += `*horário de retirada:* ${dadosCliente.observacoes}%0A%0A`;
         } else {
             mensagem += `%0A`;
         }

@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Preços dos churros
     const precos = {
-        'Tradicional': 8.00,
-        'Espanhol': 10.00,
-        'Mini': 12.00
+       
+        'Espanhol': 8.00,
+        'Mini': 10.00
     };
 
     // Adicional para recheios gourmet

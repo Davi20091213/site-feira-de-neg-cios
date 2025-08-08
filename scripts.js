@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Preços dos churros
     const precos = {
        
-        'Espanhol': 8.00,
+        'Espanhol': 12.00,
         'Mini': 10.00
     };
 

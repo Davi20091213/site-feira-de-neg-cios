@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const precos = {
        
         'Espanhol': 12.00,
-        'Mini': 10.00
+        'Mini': 12.00
     };
 
     // Adicional para recheios gourmet
